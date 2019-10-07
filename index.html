@@ -3,18 +3,19 @@
 <html>
    <head>
       <title>Ken Sullivan - My 'Magic: the Gathering' Decks</title>
+      <link rel="stylesheet" href="style.css">
    </head>
 
    <body>
 	   <header>
-         <h1>My 'Magic: the Gathering' Decks</h1>
+         <h1 class="pagetitle">My 'Magic: the Gathering' Decks</h1>
          <nav>
             <ul>
                <li>
                   <a href="#burn">Modern Burn</a>
                </li>
                <li>
-                  <a href="#dnt">Legacy Death & Taxes</a>
+                  <a href="#dnt">Legacy Death &amp; Taxes</a>
                </li>
                <li>
                   <a href="#affinity">Pauper Affinity</a>
@@ -23,17 +24,23 @@
          </nav>
       </header>
 	   <main>
-         <article>
-            <a name="burn"></a>
-            <img src="images/modernburn.jpg" alt="Modern Burn" width="512" height="384"> 
-            <p>I play Burn in Modern. The deck is designed to be as efficient and consistant as possible, running many redundant cards that achieve the same goal; reducing the opponent to 0 life.</p>
-            <p>Decklist:</p>
-            <ul>
-               <li class ="cardtype">Creatures</li>
+         <article class="maintopic">
+            I have played Magic: the Gathering for about 6 years now. These are the decks that I have built for competitive play in that time. I primarily play in non-rotating formats, so I can continue to play with the decks I have built without having to worry about set rotation.
+         </article>
+         <a name="burn"></a> 
+         <p id ="deckid">I play Burn in Modern. The deck is designed to be as efficient and consistant as possible, running many redundant cards that achieve the same goal; reducing the opponent to 0 life.</p>
+         <h2 class="decklist">Modern Burn Decklist:</h2>
+         <article class ="gridparent">
+            <p class ="cardtype">Creatures</p>
+            <p class ="cardtype">Noncreature Spells</p>
+            <p class ="cardtype">Lands</p>
+            <p class ="cardtype">Sideboard</p>
+            <ul class="creature">
                <li>Goblin Guide x4</li>
                <li>Monastery Swiftspear x4</li>
                <li>Eidolon of the Great Revel x4</li>
-               <li class ="cardtype">Noncreature Spells</li>
+            </ul>
+            <ul class="noncreature">
                <li>Lightning Bolt x4</li>
                <li>Lava Spike x4</li>
                <li>Rift Bolt x4</li>
@@ -42,7 +49,8 @@
                <li>Lightning Helix x4</li>
                <li>Searing Blaze x3</li>
                <li>Skullcrack x2</li>
-               <li class ="cardtype">Lands</li>
+            </ul>
+            <ul class="lands">
                <li>Inspiring Vantage x4</li>
                <li>Bloodstained Mire x4</li>
                <li>Wooded Foothills x4</li>
@@ -50,30 +58,37 @@
                <li>Stomping Ground x1</li>
                <li>Mountain x3</li>
             </ul>
+            <ul class ="sideboard"></ul>
          </article>
-         <article>
-            <a name="dnt"></a>
-            <img src="images/legacydnt.jpg" alt="Legacy Death and Taxes" width="512" height="384"> 
-            <p>I play Death & Taxes in Legacy. The deck is designed to tax the opponent on their mana to prevent them from playing cards while my cheaper creatures attack to reduce their health to 0.</p>
-            <ul>
-               <li class ="cardtype">Creatures</li>
+         <img src="images/modernburn.jpg" alt="Modern Burn" width="1080" height="720">
+         <a name="dnt"></a>
+            <p id ="deckid">I play Death & Taxes in Legacy. The deck is designed to tax the opponent on their mana to prevent them from playing cards while my cheaper creatures attack to reduce their health to 0.</p>
+            <h2 class="decklist">Legacy Death &amp; Taxes Decklist:</h2>
+         <article class ="gridparent">
+            <p class ="cardtype">Creatures</p>
+            <p class ="cardtype">Noncreature Spells</p>
+            <p class ="cardtype">Lands</p>
+            <p class ="cardtype">Sideboard</p>
+            <ul class="creature">
                <li>Mother of Runes x4</li>
                <li>Thalia, Guardian of Thraben x4</li>
                <li>Stoneforge Mystic x4</li>
                <li>Spirit of the Labyrinth x2</li>
-               <li>Phyrexian revoker x1</li>
+               <li>Phyrexian Revoker x1</li>
                <li>Ethersworn Canonist x1</li>
                <li>Flickerwisp x4</li>
                <li>Recruiter of the Guard x2</li>
                <li>Sanctum Prelate x1</li>
                <li>Palace Jailer x2</li>
-               <li class ="cardtype">Noncreature Spells</li>
+            </ul>
+            <ul class="noncreature">
                <li>Swords to Plowshares x4</li>
                <li>Aether Vial x4</li>
                <li>Batterskull x1</li>
                <li>Umezawa's Jitte x1</li>
                <li>Sword of Fire and Ice x1</li>
-               <li class ="cardtype">Lands</li>
+            </ul>
+            <ul class="lands">
                <li>Wasteland x4</li>
                <li>Rishidan Port x4</li>
                <li>Flagstones of Trokair x2</li>
@@ -81,19 +96,27 @@
                <li>Ghost Quarter x1</li>
                <li>Plains x10</li>
             </ul>
+            <ul class ="sideboard"></ul>
          </article>
-         <article>
-            <a name="affinity"></a>
-            <img src="images/pauperaffinity.jpg" alt="Pauper Affinity" width="512" height="384" > 
-            <p>I play Affinity in Pauper. The deck focuses on Artifacts, using cards with the "Affinity for Artifacts" effect to play cheap & efficient creatures. It also has a built in combo-kill with Atog and Fling.</p>
-            <ul>
-               <li class ="cardtype">Creatures</li>
+         <img src="images/legacydnt.jpg" alt="Legacy Death and Taxes" width="1080" height="520">
+         
+         <a name="affinity"></a>
+         <p id ="deckid">I play Affinity in Pauper. The deck focuses on Artifacts, using cards with the "Affinity for Artifacts" effect to play cheap & efficient creatures. It also has a built in combo-kill with Atog and Fling.</p>
+         <h2 class="decklist">Pauper Affinity Decklist:</h2>
+         <article class ="gridparent">
+            
+            <p class ="cardtype">Creatures</p>
+            <p class ="cardtype">Noncreature Spells</p>
+            <p class ="cardtype">Lands</p>
+            <p class ="cardtype">Sideboard</p>
+            <ul class="creature">
                <li>Carapace Forger x4</li>
                <li>Frogmite x4</li>
                <li>Atog x4</li>
                <li>Gearseeker Serpent x2</li>
                <li>Myr Enforcer x4</li>
-               <li class ="cardtype">Noncreature Spells</li>
+            </ul>
+            <ul class="noncreature">
                <li>Thoughtcast x4</li>
                <li>Galvanic Blast x4</li>
                <li>Fling x2</li>
@@ -103,14 +126,17 @@
                <li>Flayer Husk x2</li>
                <li>Springleaf Drum x3</li>
                <li>Relic of Progenitus x1</li>
-               <li class ="cardtype">Lands</li>
+            </ul>
+            <ul class="lands">
                <li>Tree of Tales x4</li>
                <li>Seat of the Synod x4</li>
                <li>Great Furnace x4</li>
                <li>Darksteel Citadel x4</li>
                <li>Ancient Den x1</li>
             </ul>
+            <ul class ="sideboard"></ul>
          </article>
+         <img src="images/pauperaffinity.jpg" alt="Pauper Affinity" width="1080" height="720" >
       </main>
 	   
 	   <footer>
