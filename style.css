@@ -6,10 +6,12 @@ body{
 .gridparent {
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: 280px 280px 280px 280px;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-template-columns: 300px 300px 300px 300px;
+    
+    grid-gap: 5px;
+    padding: 5px;
     text-align: center;
+    align-items: space-evenly;
   }
   
 .gridparent > ul { 
@@ -24,15 +26,15 @@ ul {
 }
 .creature {
     color: rgb(146, 58, 25);
-    display: grid;
+    
 }
 .noncreature {
     color: rgb(66, 29, 77);
-    display: grid:
+    
 }
 .lands{
      color: rgb(56, 34, 29);
-     display: grid;
+     
 }
 
 .cardtype {
@@ -47,6 +49,7 @@ nav ul li {
     font-size: 1.5em;
 }
 img {
+    
     margin-left: 9%;
     margin-right: 9%;
 }
@@ -65,4 +68,7 @@ img {
     text-align: center;
     font: Arial;
     font-size: 18pt;
+}
+footer{
+    text-align: center;
 }
