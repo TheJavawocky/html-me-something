@@ -1,0 +1,74 @@
+
+body{
+    background-color: rgb(238, 219, 157);
+    
+}
+.gridparent {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px 300px;
+    
+    grid-gap: 5px;
+    padding: 5px;
+    text-align: center;
+    align-items: space-evenly;
+  }
+  
+.gridparent > ul { 
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+  }
+ul {
+    font-size: 14pt;
+    font-style: arial;
+    color: rgb(104, 55, 55);
+}
+.creature {
+    color: rgb(146, 58, 25);
+    
+}
+.noncreature {
+    color: rgb(66, 29, 77);
+    
+}
+.lands{
+     color: rgb(56, 34, 29);
+     
+}
+
+.cardtype {
+    color: rgb(43, 42, 42);
+  font-size: 18pt;
+  font-style: sans-serif;
+}
+nav ul li {
+	display: inline-block;
+    margin-right: 1em;
+    margin-left: 5em;
+    font-size: 1.5em;
+}
+img {
+    
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.maintopic{
+    font-size: 20pt;
+    padding: 10px;
+}
+#deckid{
+    font-size: 16pt;
+    padding: 10px;
+}
+.pagetitle{
+    text-align: center;
+}
+.decklist{
+    text-align: center;
+    font: Arial;
+    font-size: 18pt;
+}
+footer{
+    text-align: center;
+}
